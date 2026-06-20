@@ -1,4 +1,5 @@
 import "./App.css";
+import ControlledField from "./components/controlledField/ControlledField";
 import Form from "./components/form/Form";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <h3>Simple form</h3>
       <Form></Form>
+      <ControlledField></ControlledField>
     </>
   );
 }
