@@ -1,6 +1,7 @@
 import "./App.css";
 import ControlledField from "./components/controlledField/ControlledField";
 import PracticeField from "./components/controlledField/PracticeField";
+import ProductManagement from "./components/productManagement/ProductManagement";
 import Form from "./customFormHook/Form";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <br />
       <PracticeField></PracticeField>
       <Form></Form>
+      <ProductManagement></ProductManagement>
     </>
   );
 }

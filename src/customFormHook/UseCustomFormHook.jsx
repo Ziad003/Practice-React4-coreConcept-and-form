@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-const customHook = (defaultValue) => {
+const UseCustomFormHook = (defaultValue) => {
   const [value, setValue] = useState(defaultValue);
 
   const manageValue = (e) => {
@@ -12,4 +12,4 @@ const customHook = (defaultValue) => {
   return [value, manageValue];
 };
 
-export default customHook;
+export default UseCustomFormHook;

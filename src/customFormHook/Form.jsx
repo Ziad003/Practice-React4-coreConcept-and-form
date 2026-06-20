@@ -1,7 +1,6 @@
-import customHook from "./customHook";
-
+import UseCustomFormHook from "./UseCustomFormHook";
 const Form = () => {
-  const [name, setName] = customHook("");
+  const [name, setName] = UseCustomFormHook("");
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(name);
