@@ -3,6 +3,7 @@ import ControlledField from "./components/controlledField/ControlledField";
 import PracticeField from "./components/controlledField/PracticeField";
 import ProductManagement from "./components/productManagement/ProductManagement";
 import Form from "./customFormHook/Form";
+import Family from "./familyDrill/Family";
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
       <PracticeField></PracticeField>
       <Form></Form>
       <ProductManagement></ProductManagement>
+
+      <Family></Family>
     </>
   );
 }
